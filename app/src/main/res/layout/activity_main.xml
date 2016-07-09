@@ -33,25 +33,25 @@
             <TextView
                 android:id="@+id/txtNowPlaying"
                 android:text="@string/nowPlaying"
-                android:textSize="16dp"
+                android:textSize="16sp"
                 style="@style/songPlaying" />
 
             <TextView
                 android:id="@+id/songPlaying"
                 android:layout_below="@id/txtNowPlaying"
                 style="@style/songPlaying"
-                android:text="Song Name"/>
+                android:text="@string/songName"/>
 
             <TextView
                 android:id="@+id/songArtist"
-                android:text="Artist"
+                android:text="@string/artist"
                 style="@style/songPlaying"
                 android:layout_below="@id/songPlaying"/>
 
             <TextView
                 android:layout_below="@id/songArtist"
                 style="@style/songPlaying"
-                android:text="Song Album"/>
+                android:text="@string/albumSong"/>
 
         </RelativeLayout>
 
