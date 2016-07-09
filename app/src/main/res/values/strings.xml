@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="nowPlaying">Now Playing</string>
+    <string name="library">Music Library</string>
+    <string name="artist">Artist</string>
+    <string name="songName">Song</string>
+    <string name="album">Album</string>
+    <string name="albumSong">Album Songs</string>
+
+    <string name="mainActInfo"> Hello there! This activity shows you all the contents of the app.</string>
+    <string name="nowPlayingInfo"> Hey, this is to show you the song playing with the artist name and album.
+        Click the album to know more.</string>
+    <string name="libraryInfo">Hey, this is where all the songs are stored.</string>
+    <string name="artistInfo">Hello, this is where you find all the artist in your library.</string>
+    <string name="albumInfo">Hello, this are all the songs in the album.</string>
+
+    <string name="artist1"> Cool Musician</string>
+    <string name="artist2"> Awesome Musician</string>
+    <string name="coolMusicAlbum"> Cool Album 1</string>
+
+</resources>

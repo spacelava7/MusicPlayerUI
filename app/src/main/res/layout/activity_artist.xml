@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicplayer.LibraryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/mainInfo"
+            android:text="@string/artistInfo"
+            style="@style/layoutInfo"/>
+
+        <LinearLayout
+            android:id="@+id/coolMusican"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:onClick="songClicked">
+            <ImageView
+                android:src="@drawable/music_library"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                style="@style/imgSong"/>
+
+            <TextView
+                style="@style/mainScreen"
+                android:text="@string/artist1"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBodyText"/>
+
+        <LinearLayout
+            android:id="@+id/awesomeMusician"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:onClick="songClicked">
+            <ImageView
+                android:src="@drawable/music_library"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                style="@style/imgSong"/>
+
+            <TextView
+                style="@style/mainScreen"
+                android:text="@string/artist2"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBodyText"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

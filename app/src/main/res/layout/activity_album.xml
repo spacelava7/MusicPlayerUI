@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicplayer.LibraryActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/mainInfo"
+            android:text="@string/albumInfo"
+            style="@style/layoutInfo"/>
+
+        <ImageView
+            android:src="@drawable/album_icon"
+            android:layout_width="150dp"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="26dp"
+            android:text="@string/artist"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="@string/albumSong"/>
+
+        <LinearLayout
+            android:id="@+id/album_Song"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+            <ImageView
+                android:src="@drawable/music_library"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                style="@style/imgSong"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/template_songArtist2"
+                    style="@style/mainScreen"
+                    android:text="@string/artist"/>
+
+                <TextView
+                    android:id="@+id/template_songName2"
+                    style="@style/mainScreen"
+                    android:text="@string/songName"
+                    android:layout_below="@id/template_songArtist2"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
